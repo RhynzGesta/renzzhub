@@ -1,5 +1,3 @@
-﻿loadstring([[
-	
 local UserInputService = game:GetService("UserInputService")
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
@@ -241,5 +239,3 @@ jumpBoostBox.FocusLost:Connect(function()
 		humanoid.JumpPower = tonumber(jumpBoostBox.Text) or 100
 	end
 end)
-
-]])()
