@@ -239,3 +239,4 @@ jumpBoostBox.FocusLost:Connect(function()
 		humanoid.JumpPower = tonumber(jumpBoostBox.Text) or 100
 	end
 end)
+
